@@ -21,7 +21,6 @@ app.get(["/", "/:room"], (req, res) => res.sendFile(path.join(__dirname, "www/in
 
 const channels = {};
 const sockets = {};
-
 io.sockets.on("connection", (socket) => {
 	const socketHostName = socket.handshake.headers.host.split(":")[0];
 

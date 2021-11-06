@@ -7,7 +7,7 @@ const App = new Vue({
 		videoDevices: [],
 		audioDevices: [],
 		audioEnabled: true,
-		videoEnabled: true,
+		videoEnabled: false,
 		screenshareEnabled: false,
 		showIntro: true,
 		showChat: false,
@@ -200,3 +200,4 @@ const App = new Vue({
 
 
 
+//webRTC send file
