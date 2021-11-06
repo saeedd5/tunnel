@@ -269,9 +269,3 @@ window.onload = init;
 
 
 
-
-var bottom = document.getElementById("btn-emas");
-bottom.addEventListener('click', sendchat()
-);
-
-
