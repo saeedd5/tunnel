@@ -7,7 +7,7 @@ const App = new Vue({
 		videoDevices: [],
 		audioDevices: [],
 		audioEnabled: true,
-		videoEnabled: false,
+		videoEnabled: true,
 		screenshareEnabled: false,
 		showIntro: true,
 		showChat: false,
